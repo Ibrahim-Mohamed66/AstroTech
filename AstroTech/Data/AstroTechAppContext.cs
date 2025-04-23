@@ -19,12 +19,11 @@ public class AstroTechAppContext : DbContext
     public DbSet<Product> Products { get; set; }
     public DbSet<ProductImage> ProductImages { get; set; }
     public DbSet<ProductPromotion> ProductPromotions { get; set; }
-    public DbSet<ProductSpecification> ProductSpecifications { get; set; }
     public DbSet<PromoCode> PromoCodes { get; set; }
     public DbSet<Promotion> Promotions { get; set; }
     public DbSet<PromotionalHistory> PromotionalHistories { get; set; }
     public DbSet<Review> Reviews { get; set; }
     public DbSet<Review> Roles { get; set; }
     public DbSet<Shipping> Shippings { get; set; }
-    public DbSet<User> Users { get; set; }
+    public DbSet<ApplicationUser> Users { get; set; }
 }

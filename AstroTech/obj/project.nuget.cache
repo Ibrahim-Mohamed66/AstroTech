@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W4PBYaHp+/A=",
+  "dgSpecHash": "uFTTt9CvrLg=",
   "success": true,
-  "projectFilePath": "E:\\CLS\\E-Commerce\\E-Commerce\\AstroTech.csproj",
+  "projectFilePath": "E:\\CLS\\E-Commerce\\AstroTech\\AstroTech\\AstroTech.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\im341\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\im341\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

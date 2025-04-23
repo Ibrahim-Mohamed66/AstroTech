@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 namespace AstroTech.Models;
 
-public class User
+public class ApplicationUser
 {
     public int Id { get; set; }
 
@@ -21,9 +21,6 @@ public class User
     [Required(ErrorMessage = "Phone number is required.")]
     [RegularExpression(@"^\d{11}$", ErrorMessage = "Phone number must be exactly 11 digits.")]
     public string Phone { get; set; }
-
-    [StringLength(255, ErrorMessage = "Address cannot exceed 255 characters.")]
-    public string? Address { get; set; }
 
 
     [Required(ErrorMessage = "Role is required.")]

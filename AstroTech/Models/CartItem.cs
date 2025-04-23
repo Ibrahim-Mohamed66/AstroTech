@@ -5,7 +5,7 @@ public class CartItem
 {
     public int Id { get; set; }
 
-    [ForeignKey("Cart")]
+    [ForeignKey("CartId")]
     public int CartId { get; set; }
 
 
