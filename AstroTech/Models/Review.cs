@@ -23,6 +23,6 @@ public class Review
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
     // Navigation properties
-    public User? User { get; set; }
+    public ApplicationUser? User { get; set; }
     public Product? Product { get; set; }
 }

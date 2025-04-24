@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AstroTech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f4481ac37f214d07eebbca007ac1ca31849c5e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("AstroTech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AstroTech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

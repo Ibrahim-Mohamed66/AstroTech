@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json;
 namespace AstroTech.Models;
 public class Product
 {
@@ -19,6 +20,10 @@ public class Product
     [Column(TypeName = "decimal(18,2)")]
     [Range(5, 1000000, ErrorMessage = "Base Price must be between 0.01 and 1,000,000.")]
     public decimal BasePrice { get; set; }
+
+
+    [Required(ErrorMessage = "Specifications are required.")]
+    public JsonDocument Specifications { get; set; }
 
     // Price after applying a sale (optional)
     [Column(TypeName = "decimal(18,2)")]
@@ -43,7 +48,7 @@ public class Product
     // Optional Discount
     [Column(TypeName = "decimal(18,2)")]
     [Range(1, 1000000, ErrorMessage = "Discount Price must be between 0.01 and 1,000,000.")]
-    public int? DiscountPrice { get; set; }
+    public decimal? DiscountPrice { get; set; }
 
     // Warranty in Months (Optional)
     [Range(0, 120, ErrorMessage = "Warranty cannot exceed 120 months (10 years).")]

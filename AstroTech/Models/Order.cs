@@ -26,6 +26,6 @@ public class Order
     public String PaymentMethod { get; set; }
     public Shipping? Shipping { get; set; }
     public Payment? Payment { get; set; }
-    public User? User { get; set; }
+    public ApplicationUser? User { get; set; }
 
 }
