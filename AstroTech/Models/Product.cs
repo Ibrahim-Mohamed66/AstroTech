@@ -46,8 +46,9 @@ public class Product
     public int BrandId  { get; set; }
 
     // Optional Discount
+    [Column(TypeName = "decimal(18,2)")]
     [Range(1, 1000000, ErrorMessage = "Discount Price must be between 0.01 and 1,000,000.")]
-    public int? DiscountPrice { get; set; }
+    public decimal? DiscountPrice { get; set; }
 
     // Warranty in Months (Optional)
     [Range(0, 120, ErrorMessage = "Warranty cannot exceed 120 months (10 years).")]

@@ -23,7 +23,7 @@ public class AstroTechAppContext : DbContext
     public DbSet<Promotion> Promotions { get; set; }
     public DbSet<PromotionalHistory> PromotionalHistories { get; set; }
     public DbSet<Review> Reviews { get; set; }
-    public DbSet<Review> Roles { get; set; }
+    public DbSet<Role> Roles { get; set; }
     public DbSet<Shipping> Shippings { get; set; }
     public DbSet<ApplicationUser> Users { get; set; }
 }
