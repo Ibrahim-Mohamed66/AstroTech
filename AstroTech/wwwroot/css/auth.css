@@ -1,0 +1,161 @@
+.login-form,
+.register-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px 0;
+}
+
+.login-form h2,
+.register-form h2 {
+    margin-bottom: 30px;
+    color: #2B2D42;
+}
+
+.login-form .form-group,
+.register-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form label,
+.register-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2B2D42;
+    font-weight: 500;
+}
+
+.login-form .input,
+.register-form .input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #E4E7ED;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.login-form .input:focus,
+.register-form .input:focus {
+    border-color: #D10024;
+    outline: none;
+}
+
+.login-form .primary-btn,
+.register-form .primary-btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.login-form p,
+.register-form p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-form a,
+.register-form a {
+    color: #D10024;
+    text-decoration: none;
+}
+
+.login-form a:hover,
+.register-form a:hover {
+    text-decoration: underline;
+}
+
+.social-login {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.social-login p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-google {
+    background-color: #fff;
+    color: #757575;
+    border: 1px solid #ddd;
+}
+
+.btn-google:hover {
+    background-color: #f5f5f5;
+}
+
+.btn-facebook {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.btn-facebook:hover {
+    background-color: #166fe5;
+}
+
+.btn i {
+    font-size: 16px;
+}
+/* auth.css */
+.alert-danger {
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #f5c6cb;
+    border-radius: 0.25rem;
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+.text-danger {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+* Remember Me Checkbox Styling *
+/* auth.css */
+/* Remember Me Checkbox Styling */
+.remember-me {
+    display: flex;
+    align-items: center; /* Vertically center */
+    gap: 6px; /* Space between checkbox and label */
+    margin: 10px 0 0 0; /* Only top margin if needed */
+}
+
+.remember-me input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin: 0; /* Remove default margin */
+    flex-shrink: 0;
+    vertical-align: middle; /* Ensure vertical alignment */
+}
+
+.remember-me label {
+    margin: 0;
+    line-height: 1;
+    font-size: 15px;
+    cursor: pointer;
+    color: #2B2D42;
+    vertical-align: middle; /* Ensure vertical alignment */
+}

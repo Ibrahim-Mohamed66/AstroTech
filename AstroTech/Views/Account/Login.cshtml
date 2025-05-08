@@ -1,0 +1,106 @@
+﻿@model LoginDTO
+@{
+	ViewData["Title"] = "Login";
+	Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Electro - HTML Ecommerce Template</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="~/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="~/css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="~/css/slick-theme.css" />
+	<link type="text/css" rel="stylesheet" href="~/css/nouislider.min.css" />
+	<link rel="stylesheet" href="~/css/font-awesome.min.css">
+	<link type="text/css" rel="stylesheet" href="~/css/style.css" />
+	<link type="text/css" rel="stylesheet" href="~/css/auth.css" />
+</head>
+<body>
+<!-- SECTION -->
+	<div class="section">
+	<!-- container -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="login-form">
+					<h2 class="text-center">Login</h2>
+
+					<form asp-action="Login"asp-controller="Account" method="post">
+						<div class="form-group">
+							<label asp-for="Email"></label>
+							<input asp-for="Email" class="input" placeholder="Enter your email" type="email" /><span asp-validation-for="Email" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Password">Password</label>
+							<input asp-for="Password" class="input" type="password" placeholder="Enter your password" /><span asp-validation-for="Password" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="primary-btn order-submit">Login</button> 
+						</div>
+							<div>
+								<input asp-for="RememberMe" />
+								<label for="RememberMe">Remember me</label>
+							</div>
+						<div class="form-group">
+							<p>Don't have an account? <a asp-action="Register" asp-controller="Account">Register here</a></p>
+						</div>
+						<div class="social-login">
+							<p class="text-center">Or login with</p>
+							<div class="social-buttons">
+								<button type="button" class="btn btn-google">
+									<i class="fa fa-google"></i> Login with Google
+								</button>
+								<button type="button" class="btn btn-facebook">
+									<i class="fa fa-facebook"></i> Login with Facebook
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+	<!-- /container -->
+	</div>
+	@if (!ViewData.ModelState.IsValid)
+	{
+		<div class="alert alert-danger">
+			<ul>
+				@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+				{
+					<li>@error.ErrorMessage</li>
+				}
+			</ul>
+		</div>
+	}
+	<!-- jQuery from CDN -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>window.jQuery || document.write('<script src="~/lib/jquery/dist/jquery.min.js"><\/script>');</script>
+
+	<!-- jQuery Validation from CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script>window.jQuery.validator || document.write('<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"><\/script>');</script>
+
+	<!-- jQuery Unobtrusive Validation from CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+	<script>window.jQuery.validator.unobtrusive || document.write('<script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"><\/script>');</script>
+
+	<script>
+		$(document).ready(function () {
+			$("input").blur(function () {
+				$(this).valid();  // Triggers validation when the user moves to another field
+			});
+		});
+	</script>
+
+</body>
+</html>
