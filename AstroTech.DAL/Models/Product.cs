@@ -2,9 +2,9 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json;
 namespace AstroTech.DAL.Models;
+
 public class Product
 {
-
     public int Id { get; set; }
 
     [Required(ErrorMessage = "Product Name is required.")]
@@ -18,12 +18,20 @@ public class Product
     // Original price
     [Required(ErrorMessage = "Base Price is required.")]
     [Column(TypeName = "decimal(18,2)")]
-    [Range(5, 1000000, ErrorMessage = "Base Price must be between 0.01 and 1,000,000.")]
+    [Range(5, 1000000, ErrorMessage = "Base Price must be between 5 and 1,000,000.")]
     public decimal BasePrice { get; set; }
 
-
+    // Store raw JSON in the DB
     [Required(ErrorMessage = "Specifications are required.")]
-    public JsonDocument Specifications { get; set; }
+    public string SpecificationsRaw { get; set; }
+
+    // Not mapped by EF, used in code only
+    [NotMapped]
+    public JsonDocument Specifications
+    {
+        get => string.IsNullOrEmpty(SpecificationsRaw) ? null : JsonDocument.Parse(SpecificationsRaw);
+        set => SpecificationsRaw = value?.RootElement.GetRawText();
+    }
 
     // Price after applying a sale (optional)
     [Column(TypeName = "decimal(18,2)")]
@@ -43,11 +51,12 @@ public class Product
 
     [Required(ErrorMessage = "Brand is required.")]
     [ForeignKey("BrandId")]
-    public int BrandId  { get; set; }
+    public int BrandId { get; set; }
 
     // Optional Discount
-    [Range(1, 1000000, ErrorMessage = "Discount Price must be between 0.01 and 1,000,000.")]
-    public int? DiscountPrice { get; set; }
+    [Column(TypeName = "decimal(18,2)")]
+    [Range(1, 1000000, ErrorMessage = "Discount Price must be between 1 and 1,000,000.")]
+    public decimal? DiscountPrice { get; set; }
 
     // Warranty in Months (Optional)
     [Range(0, 120, ErrorMessage = "Warranty cannot exceed 120 months (10 years).")]
@@ -56,7 +65,8 @@ public class Product
     // Optional Color
     [StringLength(30, ErrorMessage = "Color name cannot exceed 30 characters.")]
     public string? Color { get; set; }
+
+    // Navigation Properties
     public Category? Category { get; set; }
     public Brand? Brand { get; set; }
-
 }

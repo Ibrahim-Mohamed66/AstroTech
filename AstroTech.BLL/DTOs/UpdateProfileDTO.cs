@@ -1,5 +1,5 @@
 ﻿
-namespace AstroTech.Application.DTOs;
+namespace AstroTech.BLL.DTOs;
 
 public class UpdateProfileDTO
 {

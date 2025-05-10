@@ -1,5 +1,5 @@
-﻿using AstroTech.Application.Contracts;
-using AstroTech.Application.DTOs;
+﻿using AstroTech.BLL.Contracts;
+using AstroTech.BLL.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 namespace AstroTech.Controllers;

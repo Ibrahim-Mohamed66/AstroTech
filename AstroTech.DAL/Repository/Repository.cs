@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
-using AstroTech.Infrastructure.Contracts;
-using AstroTech.Infrastructure.Data;
+using AstroTech.DAL.Contracts;
+using AstroTech.DAL.Data;
 
-namespace AstroTech.Infrastructure.Repositories;
+namespace AstroTech.DAL.Repositories;
 
 public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
 {

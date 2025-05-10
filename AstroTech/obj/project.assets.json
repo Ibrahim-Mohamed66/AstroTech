@@ -2116,49 +2116,35 @@
           }
         }
       },
-      "AstroTech.Application/1.0.0": {
+      "AstroTech.BLL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "AstroTech.Infrastructure": "1.0.0",
+          "AstroTech.DAL": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.3.1",
           "Microsoft.Extensions.Identity.Core": "9.0.4"
         },
         "compile": {
-          "bin/placeholder/AstroTech.Application.dll": {}
+          "bin/placeholder/AstroTech.BLL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AstroTech.Application.dll": {}
+          "bin/placeholder/AstroTech.BLL.dll": {}
         }
       },
-      "AstroTech.Domain/1.0.0": {
+      "AstroTech.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Microsoft.Extensions.Identity.Stores": "9.0.4"
-        },
-        "compile": {
-          "bin/placeholder/AstroTech.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AstroTech.Domain.dll": {}
-        }
-      },
-      "AstroTech.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "AstroTech.Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.3.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.4",
           "Microsoft.EntityFrameworkCore": "9.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4"
         },
         "compile": {
-          "bin/placeholder/AstroTech.Infrastructure.dll": {}
+          "bin/placeholder/AstroTech.DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AstroTech.Infrastructure.dll": {}
+          "bin/placeholder/AstroTech.DAL.dll": {}
         }
       }
     }
@@ -5811,25 +5797,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "AstroTech.Application/1.0.0": {
+    "AstroTech.BLL/1.0.0": {
       "type": "project",
-      "path": "../AstroTech.BLL/AstroTech.Application.csproj",
-      "msbuildProject": "../AstroTech.BLL/AstroTech.Application.csproj"
+      "path": "../AstroTech.BLL/AstroTech.BLL.csproj",
+      "msbuildProject": "../AstroTech.BLL/AstroTech.BLL.csproj"
     },
-    "AstroTech.Domain/1.0.0": {
+    "AstroTech.DAL/1.0.0": {
       "type": "project",
-      "path": "../AstroTech.Domain/AstroTech.Domain.csproj",
-      "msbuildProject": "../AstroTech.Domain/AstroTech.Domain.csproj"
-    },
-    "AstroTech.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../AstroTech.DAL/AstroTech.Infrastructure.csproj",
-      "msbuildProject": "../AstroTech.DAL/AstroTech.Infrastructure.csproj"
+      "path": "../AstroTech.DAL/AstroTech.DAL.csproj",
+      "msbuildProject": "../AstroTech.DAL/AstroTech.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "AstroTech.Application >= 1.0.0",
+      "AstroTech.BLL >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.4"
     ]
@@ -5841,9 +5822,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\AstroTech.Web.csproj",
-      "projectName": "AstroTech.Web",
-      "projectPath": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\AstroTech.Web.csproj",
+      "projectUniqueName": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\AstroTech.Presentation.csproj",
+      "projectName": "AstroTech.Presentation",
+      "projectPath": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\AstroTech.Presentation.csproj",
       "packagesPath": "C:\\Users\\im341\\.nuget\\packages\\",
       "outputPath": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\obj\\",
       "projectStyle": "PackageReference",
@@ -5866,8 +5847,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech.BLL\\AstroTech.Application.csproj": {
-              "projectPath": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech.BLL\\AstroTech.Application.csproj"
+            "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech.BLL\\AstroTech.BLL.csproj": {
+              "projectPath": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech.BLL\\AstroTech.BLL.csproj"
             }
           }
         }

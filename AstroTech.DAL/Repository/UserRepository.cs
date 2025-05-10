@@ -1,9 +1,9 @@
-﻿using AstroTech.Domain.Models;
-using AstroTech.Infrastructure.Contracts;
+﻿using AstroTech.DAL.Models;
+using AstroTech.DAL.Contracts;
 using Microsoft.AspNetCore.Identity;
 
 
-namespace AstroTech.Infrastructure.Repository;
+namespace AstroTech.DAL.Repository;
 
 public class UserRepository : IUserRepository
 {

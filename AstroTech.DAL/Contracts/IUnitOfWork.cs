@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using AstroTech.Domain.Models;
+using AstroTech.DAL.Models;
 
-namespace AstroTech.Infrastructure.Contracts
+namespace AstroTech.DAL.Contracts
 {
     public interface IUnitOfWork : IDisposable
     {
