@@ -1,10 +1,10 @@
-﻿using AstroTech.Application.Contracts;
-using AstroTech.Application.DTOs;
-using AstroTech.Infrastructure.Contracts;
+﻿using AstroTech.BLL.Contracts;
+using AstroTech.BLL.DTOs;
+using AstroTech.DAL.Contracts;
 using Microsoft.AspNetCore.Identity;
 
 
-namespace AstroTech.Application.Services;
+namespace AstroTech.BLL.Services;
 
 public class UserService : IUserService
 {

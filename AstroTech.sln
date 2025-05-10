@@ -2,13 +2,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroTech.Domain", "AstroTech.Domain\AstroTech.Domain.csproj", "{294497D9-6441-A88E-8F5F-B69D9C29E50E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroTech.Presentation", "AstroTech\AstroTech.Presentation.csproj", "{2E4AF5F2-B8CD-2A34-7A99-7E6976374128}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroTech.Web", "AstroTech\AstroTech.Web.csproj", "{2E4AF5F2-B8CD-2A34-7A99-7E6976374128}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroTech.DAL", "AstroTech.DAL\AstroTech.DAL.csproj", "{2D2D04FE-40AC-E20C-1F41-1760C10D1C3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroTech.Infrastructure", "AstroTech.DAL\AstroTech.Infrastructure.csproj", "{2D2D04FE-40AC-E20C-1F41-1760C10D1C3C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroTech.Application", "AstroTech.BLL\AstroTech.Application.csproj", "{F6AB639A-B404-99D2-F67B-775A07255250}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroTech.BLL", "AstroTech.BLL\AstroTech.BLL.csproj", "{F6AB639A-B404-99D2-F67B-775A07255250}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,10 +14,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{294497D9-6441-A88E-8F5F-B69D9C29E50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{294497D9-6441-A88E-8F5F-B69D9C29E50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{294497D9-6441-A88E-8F5F-B69D9C29E50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{294497D9-6441-A88E-8F5F-B69D9C29E50E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E4AF5F2-B8CD-2A34-7A99-7E6976374128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E4AF5F2-B8CD-2A34-7A99-7E6976374128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E4AF5F2-B8CD-2A34-7A99-7E6976374128}.Release|Any CPU.ActiveCfg = Release|Any CPU

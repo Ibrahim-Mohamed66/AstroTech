@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 
 
-namespace AstroTech.Infrastructure.Contracts;
+namespace AstroTech.DAL.Contracts;
 
 public interface IRepository<TEntity> where TEntity: class
 {

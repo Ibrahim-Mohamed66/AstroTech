@@ -1,12 +1,12 @@
-﻿using AstroTech.Domain.Models;
-using AstroTech.Infrastructure.Contracts;
-using AstroTech.Infrastructure.Data;
-using AstroTech.Infrastructure.Repository;
+﻿using AstroTech.DAL.Models;
+using AstroTech.DAL.Contracts;
+using AstroTech.DAL.Data;
+using AstroTech.DAL.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-namespace AstroTech.Infrastructure.Extensions;
+namespace AstroTech.DAL.Extensions;
 
 public static class DataAccessExtension
 {

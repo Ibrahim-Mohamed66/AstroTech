@@ -1,6 +1,5 @@
-using AstroTech.Infrastructure.Extensions;
-using AstroTech.Application.Extensions;
-using AstroTech.Infrastructure.Contracts;
+using AstroTech.DAL.Extensions;
+using AstroTech.BLL.Extensions;
 namespace AstroTech;
 public class Program
 {

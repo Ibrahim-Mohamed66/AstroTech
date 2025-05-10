@@ -1,9 +1,9 @@
-﻿using AstroTech.Domain.Models;
+﻿using AstroTech.DAL.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AstroTech.Infrastructure.Data;
+namespace AstroTech.DAL.Data;
 public class AstroTechAppContext : IdentityDbContext<ApplicationUser, IdentityRole<int>, int>
 {
     public AstroTechAppContext(DbContextOptions<AstroTechAppContext>options) : base(options)

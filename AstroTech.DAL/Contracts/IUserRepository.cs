@@ -1,6 +1,6 @@
-﻿using AstroTech.Domain.Models;
+﻿using AstroTech.DAL.Models;
 using Microsoft.AspNetCore.Identity;
-namespace AstroTech.Infrastructure.Contracts;
+namespace AstroTech.DAL.Contracts;
 public interface IUserRepository
 {
     Task<ApplicationUser> GetUserByIdAsync(int id);

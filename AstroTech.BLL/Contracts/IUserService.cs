@@ -1,6 +1,6 @@
-﻿using AstroTech.Application.DTOs;
+﻿using AstroTech.BLL.DTOs;
 using Microsoft.AspNetCore.Identity;
-namespace AstroTech.Application.Contracts;
+namespace AstroTech.BLL.Contracts;
 public interface IUserService
 {
     Task<SignInResult> LoginAsync(LoginDTO loginDto);

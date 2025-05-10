@@ -1,9 +1,9 @@
-﻿using AstroTech.Domain.Models;
-using AstroTech.Infrastructure.Contracts;
-using AstroTech.Infrastructure.Data;
-using AstroTech.Infrastructure.Repositories;
+﻿using AstroTech.DAL.Models;
+using AstroTech.DAL.Contracts;
+using AstroTech.DAL.Data;
+using AstroTech.DAL.Repositories;
 
-namespace AstroTech.Infrastructure.Repository
+namespace AstroTech.DAL.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
