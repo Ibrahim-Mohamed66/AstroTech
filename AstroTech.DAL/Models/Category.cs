@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace AstroTech.DAL.Models;
 
@@ -19,5 +20,8 @@ public class Category
     public int? ParentCategoryId { get; set; }
 
     public Category? ParentCategory { get; set; }
+
+    public ICollection<Product>? Products { get; set; }
+
 
 }

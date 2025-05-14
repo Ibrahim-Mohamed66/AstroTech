@@ -10,7 +10,7 @@
 .login-form h2,
 .register-form h2 {
     margin-bottom: 30px;
-    color: #2B2D42;
+    color: #D10024;
 }
 
 .login-form .form-group,
@@ -22,7 +22,7 @@
 .register-form label {
     display: block;
     margin-bottom: 5px;
-    color: #2B2D42;
+    color: #D10024;
     font-weight: 500;
 }
 
@@ -156,6 +156,6 @@
     line-height: 1;
     font-size: 15px;
     cursor: pointer;
-    color: #2B2D42;
+    color: #D10024;
     vertical-align: middle; /* Ensure vertical alignment */
 }

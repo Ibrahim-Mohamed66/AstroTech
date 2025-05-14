@@ -1,82 +1,84 @@
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\Fonts\FontAwesome.otf
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\css\nouislider.min.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\css\profile.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\js\main.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery\dist\jquery.slim.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\js\jquery.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\Fonts\slick.svg
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery\dist\jquery.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery\dist\jquery.slim.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\css\bootstrap.min.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\js\slick.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery\dist\jquery.slim.min.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\css\font-awesome.min.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery\dist\jquery.min.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\css\style.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery\dist\jquery.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\js\nouislider.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery-validation\LICENSE.md
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\css\slick.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\css\auth.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery\LICENSE.txt
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\js\bootstrap.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\jquery-validation\dist\additional-methods.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\css\slick-theme.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\js\jquery.zoom.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\Fonts\fontawesome-webfont.svg
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\favicon.ico
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\css\site.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\js\site.js
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-G:\Programming\CLS\E-Commerce\AstroTech\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\Fonts\FontAwesome.otf
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\css\nouislider.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\js\countdown.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\css\profile.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\js\main.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\js\jquery.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\Fonts\slick.svg
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery\dist\jquery.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\css\bootstrap.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\js\slick.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\css\font-awesome.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery\dist\jquery.min.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\upload_debug.txt
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\css\style.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery\dist\jquery.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\js\nouislider.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery-validation\LICENSE.md
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\css\slick.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\css\auth.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery\LICENSE.txt
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\js\bootstrap.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\css\slick-theme.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\js\jquery.zoom.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\Fonts\fontawesome-webfont.svg
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\favicon.ico
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\css\site.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\js\site.js
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\Depi Project\Final\AstroTech-main\AstroTech-main\AstroTech\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 wwwroot\css\auth.css
 wwwroot\css\bootstrap.min.css
 wwwroot\css\font-awesome.min.css
@@ -97,7 +99,10 @@ wwwroot\Fonts\slick.eot
 wwwroot\Fonts\slick.svg
 wwwroot\Fonts\slick.ttf
 wwwroot\Fonts\slick.woff
+wwwroot\img\Astrotech.png
+wwwroot\img\astrotech_seed_data.sql
 wwwroot\img\AstrotechLogo.png
+wwwroot\img\default-product.png
 wwwroot\img\hotdeal.png
 wwwroot\img\logo.png
 wwwroot\img\NewLogo.png
@@ -110,10 +115,41 @@ wwwroot\img\product06.png
 wwwroot\img\product07.png
 wwwroot\img\product08.png
 wwwroot\img\product09.png
+wwwroot\img\products\51Iex1kndNL._AC_SX425_.jpg
+wwwroot\img\products\51IjRtHguSL._AC_SX425_.jpg
+wwwroot\img\products\61oS9XMdYgL._AC_SX679_.jpg
+wwwroot\img\products\71kHFb-YzmL.__AC_SX300_SY300_QL70_ML2_.jpg
+wwwroot\img\products\71kr0CP5wvL._AC_SX425_.jpg
+wwwroot\img\products\71mTLn1iYML.__AC_SX300_SY300_QL70_ML2_.jpg
+wwwroot\img\products\71QzoH5-Z9L.__AC_SY300_SX300_QL70_ML2_.jpg
+wwwroot\img\products\81ic5l79K2L.__AC_SY300_SX300_QL70_ML2_.jpg
+wwwroot\img\products\product01.png
+wwwroot\img\products\product06.png
+wwwroot\img\profile\1_638828332867774924.png
+wwwroot\img\profile\150b668c-4e24-420a-ba0a-9fcdd3d4ee91.png
+wwwroot\img\profile\22df2f11-99bd-44e2-a395-a98508868fbb.png
+wwwroot\img\profile\42948882-0121-4f26-ad63-d0702c75b565.png
+wwwroot\img\profile\438a24be-f23c-402b-b62b-87bf4c37d034.jpg
+wwwroot\img\profile\44e6e76c-274a-44a5-9bc0-64637b0bc0fd.png
+wwwroot\img\profile\5_638828376545164026.png
+wwwroot\img\profile\6305fc3e-9ee1-402a-b600-b0be2beaf12f.png
+wwwroot\img\profile\6387b57b-1b4e-4b64-a814-389bca0042cd.png
+wwwroot\img\profile\88ae31a1-cd98-4666-8e47-64f19169df4c.png
+wwwroot\img\profile\8e095c38-8a0a-4d04-8927-9c4745e824dd.jpg
+wwwroot\img\profile\9b9206d1-17c7-4508-a451-30405a85c0e6.jpg
+wwwroot\img\profile\bd42017f-0a4c-4629-a763-716131e3440c.png
+wwwroot\img\profile\d32d64f5-5cc8-4c05-b94d-01d955134e35.png
+wwwroot\img\profile\default-user.png
+wwwroot\img\profile\efc910f1-d4bd-41c0-a6d3-71bc4652fab7.jpg
+wwwroot\img\profile\faaf1368-a3b3-4acd-986c-f9bd8472e73b.jpg
+wwwroot\img\seed_data.sql
+wwwroot\img\seed_data_fixed.sql
+wwwroot\img\seed_data_no_identity.sql
 wwwroot\img\shop01.png
 wwwroot\img\shop02.png
 wwwroot\img\shop03.png
 wwwroot\js\bootstrap.min.js
+wwwroot\js\countdown.js
 wwwroot\js\jquery.min.js
 wwwroot\js\jquery.zoom.min.js
 wwwroot\js\main.js
@@ -180,3 +216,8 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\profile-images\1_638828311512063002.png
+wwwroot\profile-images\1_638828320551629813.png
+wwwroot\profile-images\1_638828323254375121.png
+wwwroot\profile-images\1_638828323777331623.png
+wwwroot\upload_debug.txt

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="LinqForEEPlus" Version="1.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="9.0.4" />
   </ItemGroup>
@@ -14,5 +15,9 @@
   <ItemGroup>
     <ProjectReference Include="..\AstroTech.DAL\AstroTech.DAL.csproj" />
   </ItemGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
 
 </Project>

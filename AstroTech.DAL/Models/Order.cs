@@ -24,7 +24,7 @@ public class Order
     [ForeignKey("Shipping")]
     public int? ShippingId { get; set; }
 
-    public String PaymentMethod { get; set; }
+    public string PaymentMethod { get; set; }
     public Shipping? Shipping { get; set; }
     public Payment? Payment { get; set; }
     public ApplicationUser? User { get; set; }

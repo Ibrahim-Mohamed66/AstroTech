@@ -1,0 +1,54 @@
+﻿@model List<AstroTech.DAL.Models.CartItem>
+
+@{
+    ViewData["Title"] = "Your Cart";
+}
+
+<div class="container mt-4">
+    <h2>Your Shopping Cart</h2>
+    @if (!Model.Any())
+    {
+        <p>Your cart is empty.</p>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Product?.ProductName</td>
+                        <td>@item.Product?.BasePrice.ToString("0.00") L.E.</td>
+                        <td>@item.Quantity</td>
+                        <td>@((item.Product?.BasePrice * item.Quantity ?? 0).ToString("0.00")) L.E.</td>
+                        <td>
+                            <form method="post" asp-action="RemoveItem" asp-controller="Shop">
+                                <input type="hidden" name="productId" value="@item.ProductId" />
+                                <button type="submit" class="btn btn-sm btn-outline-danger"><i class="fa fa-trash"></i> Remove</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <h4>Total: @Model.Sum(i => i.Product?.BasePrice * i.Quantity ?? 0).ToString("0.00") L.E.</h4>
+
+        <div class="d-flex justify-content-between align-items-center mt-3">
+            <form method="post" asp-action="ClearCart" asp-controller="Shop">
+                <button type="submit" class="btn btn-outline-danger"><i class="fa fa-trash"></i> Clear Cart</button>
+            </form>
+            <form method="post" action="/Checkout">
+                <button type="submit" class="btn btn-success">Proceed to Checkout</button>
+            </form>
+        </div>
+    }
+</div>

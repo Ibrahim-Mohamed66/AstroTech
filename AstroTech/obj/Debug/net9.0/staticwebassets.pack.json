@@ -1,420 +1,576 @@
 {
   "Files": [
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AstroTech.Presentation.bundle.scp.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AstroTech.Presentation.bundle.scp.css",
       "PackagePath": "staticwebassets\\AstroTech.Presentation.v207bzn8uv.bundle.scp.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\Fonts\\FontAwesome.otf",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\Fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\Fonts\\FontAwesome.otf"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\Fonts\\fontawesome-webfont.eot",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\Fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\Fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\Fonts\\fontawesome-webfont.svg",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\Fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\Fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\Fonts\\fontawesome-webfont.ttf",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\Fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\Fonts\\fontawesome-webfont.woff",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\Fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\Fonts\\fontawesome-webfont.woff2",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\Fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\Fonts\\slick.eot",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\Fonts\\slick.eot",
       "PackagePath": "staticwebassets\\Fonts\\slick.eot"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\Fonts\\slick.svg",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\Fonts\\slick.svg",
       "PackagePath": "staticwebassets\\Fonts\\slick.svg"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\Fonts\\slick.ttf",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\Fonts\\slick.ttf",
       "PackagePath": "staticwebassets\\Fonts\\slick.ttf"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\Fonts\\slick.woff",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\Fonts\\slick.woff",
       "PackagePath": "staticwebassets\\Fonts\\slick.woff"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\css\\auth.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\css\\auth.css",
       "PackagePath": "staticwebassets\\css\\auth.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\css\\nouislider.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\css\\nouislider.min.css",
       "PackagePath": "staticwebassets\\css\\nouislider.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\css\\profile.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\css\\profile.css",
       "PackagePath": "staticwebassets\\css\\profile.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\css\\site.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\css\\slick-theme.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\css\\slick-theme.css",
       "PackagePath": "staticwebassets\\css\\slick-theme.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\css\\slick.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\css\\slick.css",
       "PackagePath": "staticwebassets\\css\\slick.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\css\\style.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\favicon.ico",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\AstrotechLogo.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\Astrotech.png",
+      "PackagePath": "staticwebassets\\img\\Astrotech.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\AstrotechLogo.png",
       "PackagePath": "staticwebassets\\img\\AstrotechLogo.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\NewLogo.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\NewLogo.png",
       "PackagePath": "staticwebassets\\img\\NewLogo.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\hotdeal.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\astrotech_seed_data.sql",
+      "PackagePath": "staticwebassets\\img\\astrotech_seed_data.sql"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\default-product.png",
+      "PackagePath": "staticwebassets\\img\\default-product.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\hotdeal.png",
       "PackagePath": "staticwebassets\\img\\hotdeal.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\logo.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\product01.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\product01.png",
       "PackagePath": "staticwebassets\\img\\product01.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\product02.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\product02.png",
       "PackagePath": "staticwebassets\\img\\product02.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\product03.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\product03.png",
       "PackagePath": "staticwebassets\\img\\product03.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\product04.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\product04.png",
       "PackagePath": "staticwebassets\\img\\product04.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\product05.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\product05.png",
       "PackagePath": "staticwebassets\\img\\product05.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\product06.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\product06.png",
       "PackagePath": "staticwebassets\\img\\product06.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\product07.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\product07.png",
       "PackagePath": "staticwebassets\\img\\product07.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\product08.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\product08.png",
       "PackagePath": "staticwebassets\\img\\product08.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\product09.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\product09.png",
       "PackagePath": "staticwebassets\\img\\product09.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\shop01.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\products\\51Iex1kndNL._AC_SX425_.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\51Iex1kndNL._AC_SX425_.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\products\\51IjRtHguSL._AC_SX425_.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\51IjRtHguSL._AC_SX425_.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\products\\61oS9XMdYgL._AC_SX679_.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\61oS9XMdYgL._AC_SX679_.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\products\\71QzoH5-Z9L.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\71QzoH5-Z9L.__AC_SY300_SX300_QL70_ML2_.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\products\\71kHFb-YzmL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\71kHFb-YzmL.__AC_SX300_SY300_QL70_ML2_.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\products\\71kr0CP5wvL._AC_SX425_.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\71kr0CP5wvL._AC_SX425_.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\products\\71mTLn1iYML.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\71mTLn1iYML.__AC_SX300_SY300_QL70_ML2_.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\products\\81ic5l79K2L.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\81ic5l79K2L.__AC_SY300_SX300_QL70_ML2_.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\products\\product01.png",
+      "PackagePath": "staticwebassets\\img\\products\\product01.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\products\\product06.png",
+      "PackagePath": "staticwebassets\\img\\products\\product06.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\150b668c-4e24-420a-ba0a-9fcdd3d4ee91.png",
+      "PackagePath": "staticwebassets\\img\\profile\\150b668c-4e24-420a-ba0a-9fcdd3d4ee91.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\1_638828332867774924.png",
+      "PackagePath": "staticwebassets\\img\\profile\\1_638828332867774924.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\22df2f11-99bd-44e2-a395-a98508868fbb.png",
+      "PackagePath": "staticwebassets\\img\\profile\\22df2f11-99bd-44e2-a395-a98508868fbb.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\42948882-0121-4f26-ad63-d0702c75b565.png",
+      "PackagePath": "staticwebassets\\img\\profile\\42948882-0121-4f26-ad63-d0702c75b565.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\438a24be-f23c-402b-b62b-87bf4c37d034.jpg",
+      "PackagePath": "staticwebassets\\img\\profile\\438a24be-f23c-402b-b62b-87bf4c37d034.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\44e6e76c-274a-44a5-9bc0-64637b0bc0fd.png",
+      "PackagePath": "staticwebassets\\img\\profile\\44e6e76c-274a-44a5-9bc0-64637b0bc0fd.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\5_638828376545164026.png",
+      "PackagePath": "staticwebassets\\img\\profile\\5_638828376545164026.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\6305fc3e-9ee1-402a-b600-b0be2beaf12f.png",
+      "PackagePath": "staticwebassets\\img\\profile\\6305fc3e-9ee1-402a-b600-b0be2beaf12f.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\6387b57b-1b4e-4b64-a814-389bca0042cd.png",
+      "PackagePath": "staticwebassets\\img\\profile\\6387b57b-1b4e-4b64-a814-389bca0042cd.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\88ae31a1-cd98-4666-8e47-64f19169df4c.png",
+      "PackagePath": "staticwebassets\\img\\profile\\88ae31a1-cd98-4666-8e47-64f19169df4c.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\8e095c38-8a0a-4d04-8927-9c4745e824dd.jpg",
+      "PackagePath": "staticwebassets\\img\\profile\\8e095c38-8a0a-4d04-8927-9c4745e824dd.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\9b9206d1-17c7-4508-a451-30405a85c0e6.jpg",
+      "PackagePath": "staticwebassets\\img\\profile\\9b9206d1-17c7-4508-a451-30405a85c0e6.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\bd42017f-0a4c-4629-a763-716131e3440c.png",
+      "PackagePath": "staticwebassets\\img\\profile\\bd42017f-0a4c-4629-a763-716131e3440c.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\d32d64f5-5cc8-4c05-b94d-01d955134e35.png",
+      "PackagePath": "staticwebassets\\img\\profile\\d32d64f5-5cc8-4c05-b94d-01d955134e35.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\default-user.png",
+      "PackagePath": "staticwebassets\\img\\profile\\default-user.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\efc910f1-d4bd-41c0-a6d3-71bc4652fab7.jpg",
+      "PackagePath": "staticwebassets\\img\\profile\\efc910f1-d4bd-41c0-a6d3-71bc4652fab7.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\profile\\faaf1368-a3b3-4acd-986c-f9bd8472e73b.jpg",
+      "PackagePath": "staticwebassets\\img\\profile\\faaf1368-a3b3-4acd-986c-f9bd8472e73b.jpg"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\seed_data.sql",
+      "PackagePath": "staticwebassets\\img\\seed_data.sql"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\seed_data_fixed.sql",
+      "PackagePath": "staticwebassets\\img\\seed_data_fixed.sql"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\seed_data_no_identity.sql",
+      "PackagePath": "staticwebassets\\img\\seed_data_no_identity.sql"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\shop01.png",
       "PackagePath": "staticwebassets\\img\\shop01.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\shop02.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\shop02.png",
       "PackagePath": "staticwebassets\\img\\shop02.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\img\\shop03.png",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\img\\shop03.png",
       "PackagePath": "staticwebassets\\img\\shop03.png"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\js\\jquery.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\js\\countdown.js",
+      "PackagePath": "staticwebassets\\js\\countdown.js"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\js\\jquery.zoom.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\js\\jquery.zoom.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.zoom.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\js\\main.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\js\\nouislider.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\js\\nouislider.min.js",
       "PackagePath": "staticwebassets\\js\\nouislider.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\js\\site.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\js\\slick.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\js\\slick.min.js",
       "PackagePath": "staticwebassets\\js\\slick.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "G:\\Programming\\CLS\\E-Commerce\\AstroTech\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\profile-images\\1_638828311512063002.png",
+      "PackagePath": "staticwebassets\\profile-images\\1_638828311512063002.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\profile-images\\1_638828320551629813.png",
+      "PackagePath": "staticwebassets\\profile-images\\1_638828320551629813.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\profile-images\\1_638828323254375121.png",
+      "PackagePath": "staticwebassets\\profile-images\\1_638828323254375121.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\profile-images\\1_638828323777331623.png",
+      "PackagePath": "staticwebassets\\profile-images\\1_638828323777331623.png"
+    },
+    {
+      "Id": "D:\\Depi Project\\Final\\AstroTech-main\\AstroTech-main\\AstroTech\\wwwroot\\upload_debug.txt",
+      "PackagePath": "staticwebassets\\upload_debug.txt"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AstroTech.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

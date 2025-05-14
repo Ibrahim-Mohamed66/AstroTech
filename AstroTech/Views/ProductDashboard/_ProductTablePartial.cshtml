@@ -1,0 +1,46 @@
+﻿@model IEnumerable<AstroTech.BLL.DTOs.ProductDTO>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Image</th> <!-- New column for image preview -->
+            <th>Product Name</th>
+            <th>Base Price</th>
+            <th>Sale Price</th>
+            <th>Stock</th>
+            <th>On Sale?</th>
+            <th>Category</th>
+            <th>Brand</th>
+            <th>Color</th>
+            <th>Warranty</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <!-- Product Image Preview Column -->
+                <td>
+                    <img src="@(!string.IsNullOrWhiteSpace(product.PrimaryImageUrl) ? product.PrimaryImageUrl : Url.Content("~/img/default-product.png"))"
+                         alt="@product.ProductName"
+                         style="width: 50px; height: 50px; object-fit: cover;" />
+                </td>
+
+                <td>@product.ProductName</td>
+                <td>@product.BasePrice.ToString("N2")</td>
+                <td>@(product.SalePrice.HasValue ? product.SalePrice.Value.ToString("N2") : "—")</td>
+                <td>@product.StockQuantity</td>
+                <td>@(product.IsOnSale ? "Yes" : "No")</td>
+                <td>@product.CategoryName</td>
+                <td>@product.BrandName</td>
+                <td>@(string.IsNullOrWhiteSpace(product.Color) ? "—" : product.Color)</td>
+                <td>@(product.WarrantyPeriodMonths.HasValue ? product.WarrantyPeriodMonths + " months" : "—")</td>
+                <td>
+                    <a asp-action="EditProduct" asp-route-id="@product.Id">Edit</a> |
+                    <a asp-action="DeleteProduct" asp-route-id="@product.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

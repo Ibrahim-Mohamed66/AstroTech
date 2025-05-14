@@ -1,0 +1,101 @@
+﻿@model IEnumerable<AstroTech.BLL.DTOs.ProductDTO>
+@{
+    ViewData["Title"] = "Product Dashboard";
+}
+
+<h1 class="mb-3">Welcome to the Product Dashboard</h1>
+<p>Manage your products here.</p>
+
+<!-- Top Row: Search + Add -->
+<div class="row mb-3 align-items-center">
+    <div class="col-md-9">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search by product name..." />
+    </div>
+    <div class="col-md-3 text-end">
+        <a asp-action="AddProduct" class="btn w-100 text-white" style="background-color: #D10024; color:white;">
+            <i class="fa fa-plus"></i> Add Product
+        </a>
+    </div>
+</div>
+
+<!-- Second Row: Filters + Reset + Export -->
+<div class="row mb-3 align-items-center">
+    <div class="col-md-4">
+        <select id="categoryFilter" class="form-control">
+            <option value="">All Categories</option>
+            @foreach (var category in ViewBag.Categories as List<AstroTech.DAL.Models.Category>)
+            {
+                <option value="@category.Id">@category.CategoryName</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-4">
+        <select id="brandFilter" class="form-control">
+            <option value="">All Brands</option>
+            @foreach (var brand in ViewBag.Brands as List<AstroTech.DAL.Models.Brand>)
+            {
+                <option value="@brand.Id">@brand.Name</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-2">
+        <button id="resetFilters" class="btn btn-outline-secondary w-100">Reset Filters</button>
+    </div>
+
+    <div class="col-md-2 text-end">
+        <a href="@Url.Action("ExportToExcel", "ProductDashboard")" class="btn w-100 text-white" style="background-color: #D10024; color:white;">
+            <i class="fa fa-file-excel-o"></i> Export
+        </a>
+    </div>
+</div>
+
+<!-- Badge + Loading -->
+<div class="d-flex justify-content-between align-items-center mb-2">
+    <span id="productCountBadge" class="badge bg-dark">Total: @Model.Count()</span>
+    <span id="loadingIndicator" style="display:none;" class="text-danger fw-semibold">Loading...</span>
+</div>
+
+<!-- Product Table -->
+<div id="productTableContainer">
+    @await Html.PartialAsync("_ProductTablePartial", Model)
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function loadFilteredProducts() {
+            var categoryId = $('#categoryFilter').val();
+            var brandId = $('#brandFilter').val();
+            var search = $('#searchInput').val();
+
+            $('#loadingIndicator').show();
+
+            $.get('/ProductDashboard/FilterProducts', {
+                categoryId: categoryId,
+                brandId: brandId,
+                search: search
+            }, function (result) {
+                $('#productTableContainer').html(result);
+
+                const count = $('#productTableContainer').find('tbody tr').length;
+                $('#productCountBadge').text('Total: ' + count);
+                $('#loadingIndicator').hide();
+            });
+        }
+
+        $('#categoryFilter, #brandFilter').change(loadFilteredProducts);
+
+        $('#searchInput').on('keyup', function () {
+            clearTimeout($.data(this, 'timer'));
+            var wait = setTimeout(loadFilteredProducts, 300);
+            $(this).data('timer', wait);
+        });
+
+        $('#resetFilters').click(function () {
+            $('#categoryFilter, #brandFilter, #searchInput').val('');
+            loadFilteredProducts();
+        });
+    </script>
+}

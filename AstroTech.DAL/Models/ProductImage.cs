@@ -1,17 +1,19 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-namespace AstroTech.DAL.Models;
 
-public class ProductImage
+namespace AstroTech.DAL.Models
 {
-    public int Id { get; set; }
-    [Required]
-    public string ImageUrl { get; set; } 
+    public class ProductImage
+    {
+        public int Id { get; set; }
 
-    [ForeignKey("Product")]
-    public int ProductId { get; set; }
+        [Required]
+        public string ImageUrl { get; set; }
 
-    public bool IsPrimary { get; set; } = false;
-    public Product? Product { get; set; }
+        [ForeignKey("Product")]
+        public int ProductId { get; set; }
 
+        public bool IsPrimary { get; set; } = false;
+        public Product? Product { get; set; }
+    }
 }

@@ -8,13 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="ViewModels\**" />
-    <Content Remove="ViewModels\**" />
-    <EmbeddedResource Remove="ViewModels\**" />
-    <None Remove="ViewModels\**" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="LinqForEEPlus" Version="1.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.4">
       <PrivateAssets>all</PrivateAssets>
@@ -24,6 +19,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AstroTech.BLL\AstroTech.BLL.csproj" />
+    <ProjectReference Include="..\AstroTech.DAL\AstroTech.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\profile\" />
   </ItemGroup>
 
 </Project>

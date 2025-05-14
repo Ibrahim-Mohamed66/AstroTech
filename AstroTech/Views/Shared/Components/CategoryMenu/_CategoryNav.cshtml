@@ -1,0 +1,34 @@
+﻿<ul class="main-nav nav navbar-nav">
+    <li class="active"><a asp-controller="Home" asp-action="Index">Home</a></li>
+    @if (User.IsInRole("Admin"))
+    {
+        <li><a asp-controller="ProductDashboard" asp-action="Index">Dashboard</a></li>
+    }
+
+    <li><a asp-controller="Shop" asp-action="All">Hot Deals</a></li>
+
+
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+        </a>
+        <ul class="dropdown-menu animate__animated animate__fadeIn" aria-labelledby="categoriesDropdown">
+            <!-- All Products -->
+            <li>
+                <a class="dropdown-item fw-semibold" asp-controller="Shop" asp-action="All">
+                    All Products
+                </a>
+            </li>
+
+            <!-- Loop over categories -->
+            @foreach (var category in Model)
+            {
+                <li>
+                    <a class="dropdown-item" asp-controller="Shop" asp-action="Category" asp-route-id="@category.Id">
+                        @category.CategoryName
+                    </a>
+                </li>
+            }
+        </ul>
+    </li>
+</ul>
