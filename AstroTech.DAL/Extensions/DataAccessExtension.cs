@@ -1,29 +1,39 @@
-﻿using AstroTech.DAL.Models;
-using AstroTech.DAL.Contracts;
+﻿using AstroTech.DAL.Contracts;
 using AstroTech.DAL.Data;
 using AstroTech.DAL.Repository;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-namespace AstroTech.DAL.Extensions;
+using AstroTech.DAL.Models;
+using Microsoft.AspNetCore.Identity;
 
-public static class DataAccessExtension
+namespace AstroTech.DAL.Extensions
 {
-    public static IServiceCollection AddDataAccessServices(this IServiceCollection services, IConfiguration configuration)
+    public static class DataAccessExtension
     {
-        services.AddDbContext<AstroTechAppContext>(options =>
-            options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-        services.AddIdentity<ApplicationUser, IdentityRole<int>>(options =>
+        public static IServiceCollection AddDataAccessServices(this IServiceCollection services, IConfiguration configuration)
         {
-            options.Password.RequiredLength = 8;
-            options.Password.RequireUppercase = false;
-            options.Password.RequireLowercase = false;
-            options.Password.RequireNonAlphanumeric = false;
-        }).AddEntityFrameworkStores<AstroTechAppContext>().AddDefaultTokenProviders();
 
-        services.AddScoped<IUnitOfWork, UnitOfWork>();
-        services.AddScoped<IUserRepository, UserRepository>();
-        return services;
+            services.AddDbContext<AstroTechAppContext>(options =>
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddIdentity<ApplicationUser, IdentityRole<int>>(options =>
+            {
+                options.Password.RequiredLength = 8;
+                options.Password.RequireDigit = true;
+                options.Password.RequireUppercase = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireNonAlphanumeric = false;
+
+                options.User.RequireUniqueEmail = true;
+            })
+            .AddEntityFrameworkStores<AstroTechAppContext>()
+            .AddDefaultTokenProviders();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();  
+            services.AddScoped<IProductRepository, ProductRepository>();
+            return services;
+        }
     }
 }

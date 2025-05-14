@@ -41,7 +41,7 @@ public class UserRepository : IUserRepository
         }
         return result;
     }
-    public async Task<IdentityResult> UpdateProfile(string email, string password, string firstName, string lastName, string phoneNumber)
+    public async Task<IdentityResult> UpdateProfile(string email, string password, string firstName, string lastName, string phoneNumber, string profileImage = null)
     {
         var user = await _userManager.FindByEmailAsync(email);
         if (user == null)
@@ -51,6 +51,12 @@ public class UserRepository : IUserRepository
         user.FirstName = firstName;
         user.LastName = lastName;
         user.PhoneNumber = phoneNumber;
+        user.Email = email;
+        if(profileImage!=null)
+            user.ProfileImage = profileImage;
+        else
+            user.ProfileImage = null;
+
         if (!string.IsNullOrEmpty(password))
         {
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
@@ -62,9 +68,6 @@ public class UserRepository : IUserRepository
         }
         return await _userManager.UpdateAsync(user);
     }
-
-
-
     public async Task<ApplicationUser> GetUserByEmailAsync(string email)
     {
         var user = await _userManager.FindByEmailAsync(email);
@@ -89,8 +92,33 @@ public class UserRepository : IUserRepository
         return await _signInManager.PasswordSignInAsync(user, password, rememberMe, false);
     }
 
+
     public async Task SignOutAsync()
     {
         await _signInManager.SignOutAsync();
+    }
+
+    public async Task<bool> CheckPasswordAsync(ApplicationUser user, string password)
+    {
+        return await _userManager.CheckPasswordAsync(user, password);
+    }
+
+    public async Task<IdentityResult> ChangePasswordAsync(ApplicationUser user, string currentPassword, string newPassword)
+    {
+        return await _userManager.ChangePasswordAsync(user, currentPassword, newPassword);
+    }
+
+    public async Task<string> GeneratePasswordResetTokenAsync(ApplicationUser user)
+    {
+        return await _userManager.GeneratePasswordResetTokenAsync(user);
+    }
+    public async Task<IdentityResult> UpdateUserAsync(ApplicationUser user)
+    {
+        return await _userManager.UpdateAsync(user);
+    }
+
+    public async Task<IdentityResult> ResetPasswordAsync(ApplicationUser user, string token, string newPassword)
+    {
+        return await _userManager.ResetPasswordAsync(user, token, newPassword);
     }
 }

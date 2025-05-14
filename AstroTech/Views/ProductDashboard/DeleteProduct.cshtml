@@ -1,0 +1,14 @@
+﻿@model AstroTech.DAL.Models.Product
+
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
+<h1>Are you sure you want to delete the product?</h1>
+<p>Product: @Model.ProductName</p>  
+
+<form method="post">
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-danger">Delete Product</button>
+    <a href="@Url.Action("Index", "ProductDashboard")" class="btn btn-secondary">Cancel</a>
+</form>

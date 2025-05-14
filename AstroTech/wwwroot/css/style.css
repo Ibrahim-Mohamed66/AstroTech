@@ -4,7 +4,7 @@ Author: yaminncco
 
 Colors:
 	Body 		: #333
-	Headers 	: #2B2D42
+	Headers 	: #D10024
 	Primary 	: #D10024
 	Dark 		: #15161D ##1E1F29
 	Grey 		: #E4E7ED #FBFBFC #8D99AE #B9BABC
@@ -62,13 +62,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #2B2D42;
+  color: #D10024;
   font-weight: 700;
   margin: 0 0 10px;
 }
 
 a {
-  color: #2B2D42;
+  color: #D10024;
   font-weight: 500;
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
@@ -439,6 +439,8 @@ textarea.input {
   margin-right: 5px;
 }
 
+
+
 /*----------------------------*\
 	Logo
 \*----------------------------*/
@@ -581,7 +583,7 @@ textarea.input {
 }
 
 .cart-dropdown .cart-list .product-widget .product-body .product-price {
-  color: #2B2D42;
+  color: #D10024;
 }
 
 .cart-dropdown .cart-btns {
@@ -1950,11 +1952,19 @@ textarea.input {
   left: -90px;
 }
 
-.newsletter form .input {
-  width: calc(100% - 160px);
-  margin-right: -4px;
-  border-radius: 40px 0px 0px 40px;
-}
+    .newsletter form .input {
+        width: calc(100% - 160px);
+        margin-right: -4px;
+        border-radius: 40px 0px 0px 40px;
+        border: 2px solid #D10024;
+        outline: none;
+        transition: box-shadow 0.2s ease-in-out;
+    }
+
+        .newsletter form .input:focus {
+            box-shadow: 0 0 20px #D10024;
+        }
+
 
 .newsletter form .newsletter-btn {
   width: 160px;
@@ -2083,7 +2093,7 @@ textarea.input {
 
 .slick-prev:before, .slick-next:before {
   font-family: FontAwesome;
-  color: #2B2D42;
+  color: #D10024;
 }
 
 .slick-prev:before {
@@ -2188,3 +2198,33 @@ textarea.input {
     margin-top: 10px;
   }
 }
+
+/* Fix header alignment */
+#header .row {
+    display: flex;
+    align-items: center;
+    min-height: 150px;
+}
+
+/* Keep the logo consistently centered and 150px high */
+#header img {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+/* Show mega menu on hover */
+/* Ensure the dropdown opens on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu.animate__animated {
+    animation-duration: 0.3s; /* Speed it up */
+}
+
+table thead tr th {
+    color: #D10024 !important;
+    font-weight: bold;
+}
+

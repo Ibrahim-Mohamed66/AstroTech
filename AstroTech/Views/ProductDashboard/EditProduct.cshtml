@@ -1,0 +1,94 @@
+﻿@model AstroTech.DAL.Models.Product
+
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<h1>Edit Product</h1>
+
+<form method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <!-- Product Fields -->
+    <div class="form-group">
+        <label for="ProductName">Product Name</label>
+        <input type="text" class="form-control" id="ProductName" name="ProductName" value="@Model.ProductName" required />
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="ProductDescription">Product Description</label>
+        <textarea class="form-control" id="ProductDescription" name="ProductDescription" required>@Model.ProductDescription</textarea>
+        <span asp-validation-for="ProductDescription" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="BasePrice">Base Price</label>
+        <input type="number" class="form-control" id="BasePrice" name="BasePrice" value="@Model.BasePrice" required step="0.01" />
+        <span asp-validation-for="BasePrice" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="SalePrice">Sale Price (Optional)</label>
+        <input type="number" class="form-control" id="SalePrice" name="SalePrice" value="@Model.SalePrice" step="0.01" />
+        <span asp-validation-for="SalePrice" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="StockQuantity">Stock Quantity</label>
+        <input type="number" class="form-control" id="StockQuantity" name="StockQuantity" value="@Model.StockQuantity" required />
+        <span asp-validation-for="StockQuantity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="SpecificationsRaw">Specifications</label>
+        <textarea class="form-control" id="SpecificationsRaw" name="SpecificationsRaw" required>@Model.SpecificationsRaw</textarea>
+        <span asp-validation-for="SpecificationsRaw" class="text-danger"></span>
+    </div>
+
+    <!-- Category Dropdown -->
+    <div class="form-group">
+        <label for="CategoryId">Category</label>
+        <select class="form-control" id="CategoryId" name="CategoryId" required>
+            <option value="">Select Category</option>
+            @foreach (var category in ViewBag.Categories as List<AstroTech.DAL.Models.Category>)
+            {
+                <option value="@category.Id" selected="@(Model.CategoryId == category.Id ? "selected" : null)">@category.CategoryName</option>
+            }
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <!-- Brand Dropdown -->
+    <div class="form-group">
+        <label for="BrandId">Brand</label>
+        <select class="form-control" id="BrandId" name="BrandId" required>
+            <option value="">Select Brand</option>
+            @foreach (var brand in ViewBag.Brands as List<AstroTech.DAL.Models.Brand>)
+            {
+                <option value="@brand.Id" selected="@(Model.BrandId == brand.Id ? "selected" : null)">@brand.Name</option>
+            }
+        </select>
+        <span asp-validation-for="BrandId" class="text-danger"></span>
+    </div>
+
+    <!-- Image Preview and Update Section -->
+    <div class="form-group">
+        <label for="ProductImage">Product Image</label>
+
+        <div>
+            <img src="@(!string.IsNullOrWhiteSpace(Model.PrimaryImageUrl) ? Model.PrimaryImageUrl : Url.Content("~/img/default-product.png"))"
+                 alt="Product Image"
+                 style="width: 100px; height: 100px; object-fit: cover;" />
+        </div>
+
+        <input type="file" class="form-control" id="ProductImage" name="ProductImage" accept="image/*" />
+        <span asp-validation-for="PrimaryImageUrl" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

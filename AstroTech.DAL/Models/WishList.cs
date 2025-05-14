@@ -1,9 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-
 namespace AstroTech.DAL.Models;
-
-
 public class WishList
 {
     public int Id { get; set; }

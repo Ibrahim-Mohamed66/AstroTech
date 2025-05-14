@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="UnitOfWork\**" />
+    <EmbeddedResource Remove="UnitOfWork\**" />
+    <None Remove="UnitOfWork\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqForEEPlus" Version="1.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
@@ -17,8 +24,8 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UnitOfWork\" />
+	<ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

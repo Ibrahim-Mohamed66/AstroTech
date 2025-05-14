@@ -35,6 +35,8 @@ namespace AstroTech.DAL.Repository
         public IRepository<WishList> WishLists { get; }
         public IUserRepository Users { get; }
 
+        IRepository<Product> IUnitOfWork.Products => throw new NotImplementedException();
+
         public async Task<int> SaveChangesAsync()
         {
             return await _context.SaveChangesAsync();

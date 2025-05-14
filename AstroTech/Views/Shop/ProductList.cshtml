@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AstroTech.BLL.DTOs.ProductDTO>
+
+@{
+    ViewData["Title"] = "All Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var grouped = Model
+        .GroupBy(p => p.CategoryName)
+        .OrderBy(g => g.Key);
+}
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <h2 class="title text-center">Products</h2>
+        </div>
+
+        @foreach (var group in grouped)
+        {
+            <div class="row" style="margin-bottom: 30px;">
+                <div class="col-md-12">
+                    <h3 class="title">@group.Key</h3>
+                    <hr />
+                </div>
+
+                @foreach (var product in group)
+                {
+                    <div class="col-md-3 col-xs-6">
+                        @await Html.PartialAsync("~/Views/Shared/_ProductCard.cshtml", product)
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>

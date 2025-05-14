@@ -81,6 +81,9 @@ namespace AstroTech.DAL.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("ProfileImage")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -910,7 +913,7 @@ namespace AstroTech.DAL.Migrations
                         .IsRequired();
 
                     b.HasOne("AstroTech.DAL.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -923,7 +926,7 @@ namespace AstroTech.DAL.Migrations
             modelBuilder.Entity("AstroTech.DAL.Models.ProductImage", b =>
                 {
                     b.HasOne("AstroTech.DAL.Models.Product", "Product")
-                        .WithMany()
+                        .WithMany("Images")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -1061,9 +1064,19 @@ namespace AstroTech.DAL.Migrations
                     b.Navigation("CartItems");
                 });
 
+            modelBuilder.Entity("AstroTech.DAL.Models.Category", b =>
+                {
+                    b.Navigation("Products");
+                });
+
             modelBuilder.Entity("AstroTech.DAL.Models.Order", b =>
                 {
                     b.Navigation("Payment");
+                });
+
+            modelBuilder.Entity("AstroTech.DAL.Models.Product", b =>
+                {
+                    b.Navigation("Images");
                 });
 
             modelBuilder.Entity("AstroTech.DAL.Models.Shipping", b =>

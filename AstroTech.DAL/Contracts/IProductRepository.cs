@@ -1,13 +1,21 @@
-﻿using System;
+﻿using AstroTech.DAL.Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using AstroTech.DAL.Contracts;
-using AstroTech.DAL.Models;
 
-namespace AstroTech.DLL.Contracts;
-public interface IProductRepository: IRepository<Product>
+namespace AstroTech.DAL.Contracts
 {
+    public interface IProductRepository
+    {
+        // Core product operations
+        IEnumerable<Product> GetAll();
+        Product? GetById(int id);
+        IEnumerable<Product> GetByCategoryId(int categoryId);
+        void Add(Product product);
+        void Update(Product product);
+        void Delete(int id);
 
+        // Extended read operations
+        Task<IEnumerable<Product>> GetAllWithImagesAsync();
+        Task<Product?> GetByIdWithImagesAsync(int id);
+    }
 }
